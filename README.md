@@ -28,4 +28,4 @@ The parameters in the config file are:
 - <b>NCLUSTERS:</b> number of clusters to generate for each language group.
 - <b>NTERMS:</b> number of keywords to generate for each cluster.
 
-The default parameters of the file are 100 random Wikipedia paer language. The languages are English, French and Spanish. The number of clusters per language group is 3, and the number of keywords to generate is 7
+The default parameters of the file are 100 random Wikipedia paer language. The languages are English, French and Spanish. The number of clusters per language group is 3, and the number of keywords to generate is 7.
