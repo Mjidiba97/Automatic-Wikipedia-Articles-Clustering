@@ -8,6 +8,8 @@ The code is in the <b>src</b> directory. You will find 3 python files inside it:
 - <b>algorithms.py:</b> contains all the functions that I have crated and used in the main file.
 - <b>main.py:</b>b> the main function to execute.
 
+The code generates a <b>results.csv</b> file containing the articles, detected language and cluster label.
+
 The notebook covers the necessary documentation and an explanation of my approach to my submission for the NLP excercise. The goal of my submission was not to produce the best accuracy or implement complex NLP algorithms, but rather to show that my ability in writing a clear, robust and well documented code for data science related tasks. At the end of the notebook, I discussed what could have been done to further improve the segmentation task.
 
 The code functions are divided into four main types:
