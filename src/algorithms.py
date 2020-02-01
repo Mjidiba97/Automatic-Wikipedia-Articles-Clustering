@@ -138,7 +138,7 @@ def optimal_clusters(articles, lang, max_nclusters=10):
     ax.set_xlabel('N° Clusters')
     ax.set_ylabel('Inertia')
     ax.set_title('Inertia by number of clusters for '+lang_dict[lang]+' language')
-    
+    plt.show()
     
 def cluster_documents(articles, n_clusters=3):
     '''
@@ -172,7 +172,7 @@ def plot_clusters(features, labels, lang):
     legend = ax.legend(*scatter.legend_elements(), loc="lower left", title="Classes")
     ax.add_artist(legend)
     ax.set_title('PCA Cluster Plot for '+lang_dict[lang]+' language')
-    
+    plt.show()
 
 def top_keywords_per_cluster(features, cluster_labels, tfidf_labels, n_terms=10):
     '''
