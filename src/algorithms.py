@@ -59,7 +59,10 @@ def detect_language(articles, n_lang):
     '''
     articles_dict = dict()
     for article in articles:
-        lang = detect(article)
+        try:
+            lang = detect(article)
+        except:
+            pass
         if lang not in articles_dict.keys():
             articles_dict[lang] = []
         articles_dict[lang].append(article)
