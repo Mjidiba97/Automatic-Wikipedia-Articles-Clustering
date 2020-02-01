@@ -3,7 +3,7 @@ By: Ahmed Amine MAJDOUBI
 
 Note: It takes about 5 mins to generate 300 Wikipedia articles. Keep that in mind when playing with the parameters.
 
-The code is in the <b>src</b>b> directory. You will find 3 python files inside it:
+The code is in the <b>src</b> directory. You will find 3 python files inside it:
 - <b>config.py:</b> set the parameters of the simulation.
 - <b>algorithms.py:</b> contains all the functions that I have crated and used in the main file.
 - <b>main.py:</b>b> the main function to execute.
