@@ -6,7 +6,7 @@ Note: It takes about 5 mins to generate 300 Wikipedia articles. Keep that in min
 The code is in the <b>src</b> directory. You will find 3 python files inside it:
 - <b>config.py:</b> set the parameters of the simulation.
 - <b>algorithms.py:</b> contains all the functions that I have crated and used in the main file.
-- <b>main.py:</b>b> the main function to execute.
+- <b>main.py:</b> the main function to execute.
 
 The code generates a <b>results.csv</b> file containing the articles, detected language and cluster label.
 
@@ -34,5 +34,6 @@ The parameters in the config file are:
 - <b>ARTICLES_PER_LANG:</b> number of documents to generate per language.
 - <b>NCLUSTERS:</b> number of clusters to generate for each language group.
 - <b>NTERMS:</b> number of keywords to generate for each cluster.
+- <b>PLOT2D:</b> plot 2D graph of the clusters per language.
 
-The default parameters of the file are 100 random Wikipedia paer language. The languages are English, French and Spanish. The number of clusters per language group is 3, and the number of keywords to generate is 7.
+The default parameters of the file are 100 random Wikipedia paer language. The languages are English, French and Spanish. The number of clusters per language group is 3, the number of keywords to generate is 7, and the 2D plots will be genrated at the end.
