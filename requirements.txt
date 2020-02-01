@@ -1,0 +1,4 @@
+wikipedia == 1.4.0
+langdetect == 1.0.7
+nltk == 3.4.5
+scikit_learn == 0.21.3
