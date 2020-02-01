@@ -9,7 +9,7 @@ class PARAMS:
     LANG_DICT = dict({'fr':'french', 'en': 'english', 'es':'spanish'})
     
     # number of documents to generate per language
-    ARTICLES_PER_LANG = 10
+    ARTICLES_PER_LANG = 100
     
     # number of clusters to generate for each language group
     NCLUSTERS = dict({'fr':3, 'en': 3, 'es':3})
