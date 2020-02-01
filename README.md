@@ -1,3 +1,6 @@
+# NLP: Clustering random Wikipedia articles
+By: Ahmed Amine MAJDOUBI
+
 Note: It takes about 5 mins to generate 300 Wikipedia articles. Keep that in mind when playing with the parameters.
 
 The notebook covers the necessary documentation and an explanation of my approach to my submission for the NLP excercise. The goal of my submission was not to produce the best accuracy or implement complex NLP algorithms, but rather to show that my ability in writing a clear, robust and well documented code for data science related tasks. At the end of the notebook, I discussed what could have been done to further improve the segmentation task.
